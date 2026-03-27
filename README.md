@@ -1,14 +1,55 @@
 # GitHub-Profile-Header-Tool
 
-A simple yet effective tool for generating custom header images for GitHub profile READMEs. This project allows developers to personalize their profiles with professional-looking banners.
+An automated tool for creating professional and dynamic GitHub profile header images.
 
-## ┬┐ Features
-- **Customizable Themes**: Multiple templates and color schemes.
-- **Automated Generation**: Python-based image processing for quick output.
-- **Easy Integration**: Ready-to-use markdown snippets for your profile README.
+## Features
+- **Customizable Themes**: Multiple templates and color schemes for profile personalization.
+- **Dynamic Generation**: Vite-powered web interface for real-time header preview.
+- **Easy Integration**: Exports ready-to-use banners for your GitHub README.
 
-## ┬┐ Project Structure
-- `src/`: Core Python generators and assets.
+## Tech Stack
+- **Language**: JavaScript, HTML/CSS
+- **Framework**: Vite
+- **Assets**: Custom SVG/Canvas templates
+
+## Project Structure
+```
+├── index.html          # Main entry point
+├── vite.config.js      # Build configuration
+├── src/                # Business logic
+├── components/         # UI components
+├── styles/             # Modular CSS
+├── public/             # Static assets (fonts, icons)
+└── deploy/             # Deployment scripts
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/DinhLucent/github-profile-header-generator.git
+cd github-profile-header-generator
+npm install
+```
+
+### Usage
+```bash
+# Run local development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Demo
+A live version of the generator can be deployed using the scripts in `deploy/` or viewed locally.
+
+## License
+MIT License — see [LICENSE](LICENSE)
 
 ---
-*Created by DinhLucent - 2022 (Updated 2026)*
+Built by [DinhLucent](https://github.com/DinhLucent)
